@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" alt="Project Logo">
+    </header>
+
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#documentation-section">Documentation</a></li>
+            <li><a href="#features-section">Features</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero-section">
+        <h1>Welcome to My Project</h1>
+        <p>Discover the amazing features of our project.</p>
+        <button onclick="navigateToSection('about-section')">Learn More</button>
+    </section>
+
+    <section id="about-section">
+        <h2>About</h2>
+        <p>This project is designed to...</p>
+    </section>
+
+    <section id="documentation-section">
+        <h2>Documentation</h2>
+        <p>Here you can find detailed instructions...</p>
+    </section>
+
+    <section id="features-section">
+        <h2>Features</h2>
+        <p>Our project offers the following features...</p>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contact</h2>
+        <form onsubmit="submitContactForm()">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Copyright Information</a></li>
+        </ul>
+        <p>Follow us on:</p>
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+    </footer>
+</body>
+</html>
