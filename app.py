@@ -10,7 +10,7 @@ def install_dependencies(requirements_file):
     try:
         subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', requirements_file])
     except Exception as e:
-        print(f"Failed to install dependencies from {requirements_file}: {e}")
+        print(f"Failed to install dependencies: {e}. Please check if the requirements file exists and is correctly formatted.")
 
 # Call the install_dependencies function
 if __name__ == "__main__":
