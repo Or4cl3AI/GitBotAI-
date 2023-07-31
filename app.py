@@ -16,4 +16,5 @@ def install_dependencies():
         print(f"Failed to install dependencies: {e}")
 
 # Call the install_dependencies function
-install_dependencies()
+if __name__ == "__main__":
+    install_dependencies()
