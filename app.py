@@ -19,8 +19,10 @@ def install_dependencies():
 if __name__ == "__main__":
     while True:
         user_confirmation = input("Do you want to install dependencies? (yes/no): ")
-        if user_confirmation.lower() in ['yes', 'no']:
+        if user_confirmation.lower() == 'yes':
+            install_dependencies()
             break
-        print("Invalid input. Please enter 'yes' or 'no'.")
-    if user_confirmation.lower() == 'yes':
-        install_dependencies()
+        elif user_confirmation.lower() == 'no':
+            break
+        else:
+            print("Invalid input. Please enter 'yes' or 'no'.")
