@@ -65,6 +65,19 @@ To make it easier for users to install GitBotAI on their repositories, you can a
 4. Enable the "GitBotAI Installation" feature.
 5. Save the changes.
 
+### Download and Install GitBotAI
+
+To download and install GitBotAI, follow these steps:
+
+1. Generate the download and install link by calling the `generate_documentation_link()` method in `GitBotAI/documentation.py`.
+2. Copy the generated link.
+3. Go to your repository's page on GitHub.
+4. Click on the "Settings" tab.
+5. Scroll down to the "Features" section.
+6. Enable the "GitBotAI Installation" feature.
+7. Paste the copied link into the installation field.
+8. Save the changes.
+
 For more detailed instructions, please refer to our [documentation](./documentation.py).
 
 ## Contributing

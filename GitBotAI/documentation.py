@@ -1,4 +1,3 @@
-```python
 import os
 
 class Documentation:
@@ -30,7 +29,13 @@ class Documentation:
 
         print("Documentation generated successfully.")
 
+    def generate_documentation_link(self):
+        """
+        Generate the download and install link for GitBotAI.
+        """
+        # Generate the download and install link
+        # Return the generated link
+
 if __name__ == "__main__":
     doc = Documentation()
     doc.generate_documentation()
-```
