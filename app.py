@@ -6,20 +6,13 @@ import sys
 import argparse
 
 # Function to handle installation process
-def install_dependencies():
-    # List of dependencies with their respective versions
-    dependencies = [
-        'dependency1==1.0.0',
-        'dependency2>=1.0.0,<2.0.0',
-        # Add more dependencies as needed
-    ]
-
-    # Install each dependency individually
-    for dependency in dependencies:
-        try:
-            os.system(f"pipenv install {dependency}")
-        except Exception as e:
-            print(f"Failed to install {dependency}: {e}")
+def install_dependencies(requirements_file):
+    try:
+        with open(requirements_file, 'r') as f:
+            dependencies = f.read().splitlines()
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + dependencies)
+    except Exception as e:
+        print(f"Failed to install dependencies: {e}. Please check if the requirements file exists and is correctly formatted.")
 
 # Call the install_dependencies function
 if __name__ == "__main__":
@@ -29,4 +22,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.install_deps:
-        install_dependencies()
+        install_dependencies("requirements.txt")
