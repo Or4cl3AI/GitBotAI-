@@ -20,8 +20,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Install dependencies.')
     parser.add_argument('--install-deps', action='store_true',
                         help='Install dependencies')
-    parser.add_argument('--confirm-install', default='yes',
-                        help='Confirm before installing dependencies')
     args = parser.parse_args()
 
     if args.install_deps:
