@@ -6,14 +6,13 @@ import sys
 
 # Function to handle installation process
 def install_dependencies():
-    # List of required dependencies
-    dependencies = ["dependency1", "dependency2"]
+    # List of required dependencies with their versions
+    dependencies = ["dependency1==1.0.0", "dependency2==2.0.0"]
     
     # Install each dependency individually
     for dependency in dependencies:
         try:
             subprocess.check_call([sys.executable, '-m', 'pip', 'install', dependency])
-            print(f"Successfully installed {dependency}")
         except Exception as e:
             print(f"Failed to install {dependency}: {e}. Please check if the dependency is correctly spelled and available.")
 
