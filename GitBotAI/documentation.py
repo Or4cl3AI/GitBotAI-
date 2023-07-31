@@ -2,7 +2,7 @@ import os
 
 class Documentation:
     def __init__(self):
-        self.documentation_path = "GitBotAI/README.md"
+        self.documentation_path = "README.md"
 
     def generate_documentation(self):
         """
