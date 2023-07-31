@@ -6,7 +6,7 @@ import sys
 import argparse
 
 # Function to handle installation process
-def install_dependencies():
+def install_dependencies(requirements_file):
     # List of dependencies with their respective versions
     dependencies = [
         'dependency1==1.0.0',
@@ -29,4 +29,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.install_deps:
-        install_dependencies()
+        install_dependencies("requirements.txt")
