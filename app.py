@@ -3,6 +3,7 @@ import os
 import pip
 import subprocess
 import sys
+import argparse
 
 # Function to handle installation process
 def install_dependencies():
@@ -18,12 +19,10 @@ def install_dependencies():
 
 # Call the install_dependencies function
 if __name__ == "__main__":
-    while True:
-        user_confirmation = input("Do you want to install dependencies? (yes/no): ")
-        if user_confirmation.lower() == 'yes':
-            install_dependencies()
-            break
-        elif user_confirmation.lower() == 'no':
-            break
-        else:
-            print("Invalid input. Please enter 'yes' or 'no'.")
+    parser = argparse.ArgumentParser(description='Install dependencies.')
+    parser.add_argument('--install-deps', action='store_true',
+                        help='Install dependencies')
+    args = parser.parse_args()
+
+    if args.install_deps:
+        install_dependencies()
