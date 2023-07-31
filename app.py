@@ -6,13 +6,14 @@ import sys
 import argparse
 
 # Function to handle installation process
-def install_dependencies(confirm_install):
-    # Install required dependencies using pip
-    if confirm_install == 'yes':
-        try:
-            subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
-        except Exception as e:
-            print(f"Failed to install dependencies: {e}. Please check if the dependencies are correctly spelled and available in requirements.txt.")
+def install_dependencies():
+    # Path to the requirements file
+    requirements_file = "requirements.txt"
+
+    try:
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', requirements_file])
+    except Exception as e:
+        print(f"Failed to install dependencies: {e}. Please check if the requirements file exists and is correctly formatted.")
 
 # Call the install_dependencies function
 if __name__ == "__main__":
@@ -24,4 +25,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.install_deps:
-        install_dependencies(args.confirm_install)
+        install_dependencies()
