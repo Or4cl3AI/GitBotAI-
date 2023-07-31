@@ -2,6 +2,7 @@
 import os
 import subprocess
 import sys
+import sys
 
 # Function to handle installation process
 def install_dependencies():
