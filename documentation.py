@@ -24,6 +24,10 @@ def usage_section():
         ""
     ])
 
-# Call the sections to display the instructions
-print(installation_section())
-print(usage_section())
+def main():
+    # Call the sections to display the instructions
+    print(installation_section())
+    print(usage_section())
+
+if __name__ == "__main__":
+    main()
