@@ -9,11 +9,13 @@ def install_dependencies():
     # List of required dependencies
     dependencies = ["dependency1", "dependency2"]
     
-    # Install required dependencies using pip
-    try:
-        subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + dependencies)
-    except Exception as e:
-        print(f"Failed to install dependencies: {e}. Please check if the dependencies are correctly spelled and available.")
+    # Install each dependency individually
+    for dependency in dependencies:
+        try:
+            subprocess.check_call([sys.executable, '-m', 'pip', 'install', dependency])
+            print(f"Successfully installed {dependency}")
+        except Exception as e:
+            print(f"Failed to install {dependency}: {e}. Please check if the dependency is correctly spelled and available.")
 
 # Call the install_dependencies function
 if __name__ == "__main__":
