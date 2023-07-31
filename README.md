@@ -57,7 +57,7 @@ python app.py
 
 ### Adding a Button or Link for GitBotAI Installation
 
-To make it easier for users to install GitBotAI on their repositories, you can add a badge or link to your README file. Here's how you can do it:
+To make it easier for users to install GitBotAI on their repositories, you can add a badge or link to your README file. Ideally, this should be placed at the top of the README for maximum visibility. Here's how you can do it:
 
 1. Copy the following Markdown code:
 
