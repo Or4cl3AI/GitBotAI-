@@ -16,4 +16,6 @@ def install_dependencies():
 
 # Call the install_dependencies function
 if __name__ == "__main__":
-    install_dependencies()
+    user_confirmation = input("Do you want to install dependencies? (yes/no): ")
+    if user_confirmation.lower() == 'yes':
+        install_dependencies()
