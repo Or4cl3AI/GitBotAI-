@@ -11,8 +11,7 @@ def install_dependencies():
     
     # Install required dependencies using pip
     try:
-        for dependency in dependencies:
-            subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + dependencies)
+        subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + dependencies)
     except Exception as e:
         print(f"Failed to install dependencies: {e}")
 
