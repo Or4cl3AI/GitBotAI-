@@ -62,7 +62,7 @@ To make it easier for users to install GitBotAI on their repositories, you can a
 1. Copy the following Markdown code:
 
    ```markdown
-   [![Install GitBotAI](https://img.shields.io/badge/Install-GitBotAI-blue?style=for-the-badge)](INSTALLATION_LINK)
+   [![Install GitBotAI](https://img.shields.io/badge/Install-GitBotAI-blue?style=for-the-badge)](https://github.com/apps/gitbotai/installations/new)
    ```
 
 2. Replace `INSTALLATION_LINK` with the actual link where users can install GitBotAI.
