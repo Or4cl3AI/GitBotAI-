@@ -1,6 +1,6 @@
 # Import necessary modules and functions
 import os
-import subprocess
+import pip
 import sys
 import sys
 
