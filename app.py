@@ -13,7 +13,7 @@ def install_dependencies():
     try:
         subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + dependencies)
     except Exception as e:
-        print(f"Failed to install dependencies: {e}")
+        print(f"Failed to install dependencies: {e}. Please check if the dependencies are correctly spelled and available.")
 
 # Call the install_dependencies function
 if __name__ == "__main__":
