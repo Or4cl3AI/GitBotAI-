@@ -55,6 +55,16 @@ You can then run the application using the following command:
 python app.py
 ```
 
+### Adding a Button or Link for GitBotAI Installation
+
+To make it easier for users to install GitBotAI on their repositories, you can add a button or link to the repository's page. Here's how you can do it:
+
+1. Go to your repository's page on GitHub.
+2. Click on the "Settings" tab.
+3. Scroll down to the "Features" section.
+4. Enable the "GitBotAI Installation" feature.
+5. Save the changes.
+
 For more detailed instructions, please refer to our [documentation](./documentation.py).
 
 ## Contributing
