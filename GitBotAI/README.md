@@ -80,6 +80,8 @@ To download and install GitBotAI, follow these steps:
 
 For more detailed instructions, please refer to our [documentation](./documentation.py).
 
+[![Install GitBotAI](https://img.shields.io/badge/Install-GitBotAI-blue?style=for-the-badge)](https://github.com/apps/gitbotai/installations/new)
+
 ## Contributing
 
 We welcome contributions to GitBotAI! Please see our [contribution guidelines](CONTRIBUTING.md) for details.
