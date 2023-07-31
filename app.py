@@ -20,5 +20,13 @@ if __name__ == "__main__":
                         help='Install dependencies')
     args = parser.parse_args()
 
-    if args.install_deps:
-        install_dependencies()
+    confirm_install = os.getenv('CONFIRM_INSTALL', 'yes').lower()
+    while True:
+        if confirm_install == 'yes':
+            install_dependencies()
+            break
+        elif confirm_install == 'no':
+            break
+        else:
+            user_confirmation = input("Do you want to install dependencies? (yes/no): ")
+            confirm_install = user_confirmation.lower()
