@@ -10,7 +10,7 @@ def deploy_code(repo_name, target_env, deployment_script=None, resources=None):
         client = docker.from_env()
 
         # Build Docker image
-        image, build_logs = client.images.build(path="<path_to_correct_location>/Dockerfile", tag=f"{repo_name}:latest")
+        image, build_logs = client.images.build(path="<correct_path_to_Dockerfile>/Dockerfile", tag=f"{repo_name}:latest")
 
         # Log build output
         for log in build_logs:
