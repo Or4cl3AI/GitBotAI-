@@ -1,5 +1,7 @@
 # GitBotAI
 
+[![Install GitBotAI](https://img.shields.io/badge/Install-GitBotAI-blue?style=for-the-badge)](https://github.com/apps/gitbotai/installations/new)
+
 GitBotAI is a conversational GitHub app designed to assist with code and file generation, packaging and deployment, repository management, version control, and user authentication. It also provides robust natural language understanding (NLU) capabilities and comprehensive user support.
 
 ## Features
