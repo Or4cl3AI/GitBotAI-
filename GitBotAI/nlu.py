@@ -1,4 +1,4 @@
-```python
+import pickle
 import nltk
 from nltk import word_tokenize
 from nltk.corpus import stopwords
@@ -31,4 +31,3 @@ class NLU:
         intent = self.parse_intent(text)
         entities = self.extract_entities(text)
         return intent, entities
-```
