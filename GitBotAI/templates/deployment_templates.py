@@ -1,4 +1,3 @@
-```python
 # GitBotAI/templates/deployment_templates.py
 
 # This file contains predefined templates for packaging and deployment operations.
@@ -11,8 +10,8 @@ FROM python:3.7-slim
 # Set the working directory in the container to /app
 WORKDIR /app
 
-# Add the current directory contents into the container at /app
-ADD . /app
+# Copy the current directory contents into the container at /app
+COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
@@ -94,4 +93,3 @@ heroku stack:set container
 # Push the app to Heroku
 git push heroku master
 """
-```
