@@ -1,7 +1,5 @@
 # GitBotAI
 
-[![Install GitBotAI](https://img.shields.io/badge/Install-GitBotAI-blue?style=for-the-badge)](https://github.com/apps/gitbotai/installations/new)
-
 GitBotAI is a conversational GitHub app designed to assist with code and file generation, packaging and deployment, repository management, version control, and user authentication. It also provides robust natural language understanding (NLU) capabilities and comprehensive user support.
 
 ## Features
@@ -59,16 +57,13 @@ python app.py
 
 ### Adding a Button or Link for GitBotAI Installation
 
-To make it easier for users to install GitBotAI on their repositories, you can add a badge or link to your README file. Ideally, this should be placed at the top of the README for maximum visibility. Here's how you can do it:
+To make it easier for users to install GitBotAI on their repositories, you can add a button or link to the repository's page. Here's how you can do it:
 
-1. Copy the following Markdown code:
-
-   ```markdown
-   [![Install GitBotAI](https://actual_installation_link_here)](https://github.com/apps/gitbotai/installations/new)
-   ```
-
-2. Replace `INSTALLATION_LINK` with the actual link where users can install GitBotAI.
-3. Paste this code into your README file where you want the badge to appear.
+1. Go to your repository's page on GitHub.
+2. Click on the "Settings" tab.
+3. Scroll down to the "Features" section.
+4. Enable the "GitBotAI Installation" feature.
+5. Save the changes.
 
 ### Download and Install GitBotAI
 
@@ -84,6 +79,10 @@ To download and install GitBotAI, follow these steps:
 8. Save the changes.
 
 For more detailed instructions, please refer to our [documentation](./documentation.py).
+
+[![Install GitBotAI](https://actual_installation_link_here)](https://github.com/apps/gitbotai/installations/new)
+
+- [GitHub Pages](https://or4cl3ai.github.io/GitBotAI-) - Visit the GitHub Pages page for the GitBotAI repository.
 
 ## Contributing
 
