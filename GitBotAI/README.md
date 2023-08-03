@@ -82,6 +82,8 @@ For more detailed instructions, please refer to our [documentation](./documentat
 
 [![Install GitBotAI](https://actual_installation_link_here)](https://github.com/apps/gitbotai/installations/new)
 
+- [GitHub Pages](https://or4cl3ai.github.io/GitBotAI-) - Visit the GitHub Pages page for the GitBotAI repository.
+
 ## Contributing
 
 We welcome contributions to GitBotAI! Please see our [contribution guidelines](CONTRIBUTING.md) for details.
