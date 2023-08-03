@@ -1,4 +1,4 @@
-from sklearn.svm import LinearSVC
+sklearn.svm import LinearSVC
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
