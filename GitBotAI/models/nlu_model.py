@@ -1,4 +1,3 @@
-```python
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
 from sklearn.pipeline import Pipeline
@@ -8,6 +7,7 @@ import nltk
 from nltk.corpus import stopwords
 import json
 import os
+import pickle
 
 class NLUModel:
     def __init__(self):
@@ -64,4 +64,3 @@ class NLUModel:
                 return random.choice(i['responses'])
 
         return None
-```

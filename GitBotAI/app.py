@@ -1,4 +1,3 @@
-```python
 from flask import Flask, request
 from GitBotAI.bot import GitBotAI
 
@@ -17,6 +16,11 @@ def authenticate():
     bot.authenticate_user(code)
     return 'ok'
 
+@app.route('/sweep_and_merge', methods=['POST'])
+def sweep_and_merge():
+    repo_name = request.form.get('repo_name')
+    version_control(repo_name, 'sweep_and_merge_branches')
+    return 'ok'
+
 if __name__ == '__main__':
     app.run(port=5000)
-```

@@ -1,68 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+  <title>GitBotAI - Sales Landing Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <header id="header">
-        <img src="logo.png" alt="Project Logo">
-    </header>
-
-    <nav id="nav-menu">
-        <ul>
-            <li><a href="#hero-section">Home</a></li>
-            <li><a href="#about-section">About</a></li>
-            <li><a href="#documentation-section">Documentation</a></li>
-            <li><a href="#features-section">Features</a></li>
-            <li><a href="#contact-section">Contact</a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">GitBotAI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#getting-started">Getting Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#installation">Installation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contribution">Contribution</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#support">Support</a>
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <section id="hero-section">
-        <h1>Welcome to My Project</h1>
-        <p>Discover the amazing features of our project.</p>
-        <button onclick="navigateToSection('about-section')">Learn More</button>
-    </section>
+  <header class="bg-primary text-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4">GitBotAI - Your GitHub Assistant</h1>
+      <p class="lead">Automate code generation, repository management, version control, and more!</p>
+      <a class="btn btn-light btn-lg" href="#features">Learn More</a>
+    </div>
+  </header>
 
-    <section id="about-section">
-        <h2>About</h2>
-        <p>This project is designed to...</p>
-    </section>
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Code and File Generation</h3>
+              <p class="card-text">Identifies missing code or files and generates them based on user input or requirements.</p>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Packaging and Deployment</h3>
+              <p class="card-text">Packages the codebase and its dependencies for deployment.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Repository Management</h3>
+              <p class="card-text">Enables easy management of GitHub repositories using conversational commands.</p>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Version Control Integration</h3>
+              <p class="card-text">Integrates with Git for version control functionality within the chatbot.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Natural Language Understanding (NLU)</h3>
+              <p class="card-text">Develops a robust NLU system to understand user commands and intents.</p>
+            </div>
+          </div>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">User Authentication and Authorization</h3>
+              <p class="card-text">Implements a secure authentication system to ensure authorized access.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="documentation-section">
-        <h2>Documentation</h2>
-        <p>Here you can find detailed instructions...</p>
-    </section>
+  <section id="getting-started" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="mb-4">Getting Started with GitBotAI</h2>
+          <p>To get started with GitBotAI, follow these steps:</p>
+          <ol>
+            <li>Clone the repository and install the necessary dependencies.</li>
+            <li>Run the application using the provided command.</li>
+          </ol>
+        </div>
+        <div class="col-lg-6">
+          <pre class="bg-white p-3">
+git clone https://github.com/username/GitBotAI.git
+cd GitBotAI
+pip install -r requirements.txt
 
-    <section id="features-section">
-        <h2>Features</h2>
-        <p>Our project offers the following features...</p>
-    </section>
+python app.py
+          </pre>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact-section">
-        <h2>Contact</h2>
-        <form onsubmit="submitContactForm()">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+  <section id="installation" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Installation</h2>
+      <p>To install GitBotAI on your repository, follow these steps:</p>
+      <ol>
+        <li>Generate the installation link by calling the <code>generate_documentation_link()</code> method.</li>
+        <li>Go to your repository's page on GitHub.</li>
+        <li>Enable the "GitBotAI Installation" feature in the repository settings.</li>
+        <li>Paste the generated link into the installation field.</li>
+      </ol>
+    </div>
+  </section>
 
-    <footer id="footer">
-        <ul>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Copyright Information</a></li>
-        </ul>
-        <p>Follow us on:</p>
-        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-    </footer>
+  <section id="contribution" class="bg-light py-5">
+    <div class="container">
+      <h2 class="mb-4">Contributing to GitBotAI</h2>
+      <p>We welcome contributions to GitBotAI! Please see our contribution guidelines for details.</p>
+      <a class="btn btn-primary" href="CONTRIBUTING.md">Contribution Guidelines</a>
+    </div>
+  </section>
+
+  <section id="support" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Support</h2>
+      <p>If you encounter any issues or have any questions, please contact us through our support channels. You can find more information in our support guide.</p>
+      <a class="btn btn-primary" href="./support.py">Support Guide</a>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-light text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 GitBotAI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
-                                                    </html>
+                </html>

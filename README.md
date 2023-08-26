@@ -55,7 +55,34 @@ You can then run the application using the following command:
 python app.py
 ```
 
+### Adding a Button or Link for GitBotAI Installation
+
+To make it easier for users to install GitBotAI on their repositories, you can add a button or link to the repository's page. Here's how you can do it:
+
+1. Go to your repository's page on GitHub.
+2. Click on the "Settings" tab.
+3. Scroll down to the "Features" section.
+4. Enable the "GitBotAI Installation" feature.
+5. Save the changes.
+
+### Download and Install GitBotAI
+
+To download and install GitBotAI, follow these steps:
+
+1. Generate the download and install link by calling the `generate_documentation_link()` method in `GitBotAI/documentation.py`.
+2. Copy the generated link.
+3. Go to your repository's page on GitHub.
+4. Click on the "Settings" tab.
+5. Scroll down to the "Features" section.
+6. Enable the "GitBotAI Installation" feature.
+7. Paste the copied link into the installation field.
+8. Save the changes.
+
 For more detailed instructions, please refer to our [documentation](./documentation.py).
+
+[![Install GitBotAI](https://actual_installation_link_here)](https://github.com/apps/gitbotai/installations/new)
+
+- [GitHub Pages](https://or4cl3ai.github.io/GitBotAI-) - Visit the GitHub Pages page for the GitBotAI repository.
 
 ## Contributing
 

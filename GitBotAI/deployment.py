@@ -1,4 +1,4 @@
-```python
+import os
 import docker
 from docker.errors import DockerException
 from utils import handle_error
@@ -11,7 +11,7 @@ def deploy_code(repo_name, target_env, deployment_script=None, resources=None):
         client = docker.from_env()
 
         # Build Docker image
-        image, build_logs = client.images.build(path=f"./{repo_name}", tag=f"{repo_name}:latest")
+        image, build_logs = client.images.build(path=os.path.join(os.path.dirname(__file__), "GitBotAI", "Dockerfile"), tag=f"{repo_name}:latest", dockerfile="Dockerfile")
 
         # Log build output
         for log in build_logs:
@@ -39,4 +39,3 @@ def deploy_code(repo_name, target_env, deployment_script=None, resources=None):
 
     except DockerException as e:
         handle_error(e)
-```
