@@ -1,47 +1,50 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-  <!-- Metadata -->  
+  <title>GitBotAI Pricing</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
-
 <body>
+  <div class="container py-5">
+    <h1 class="text-center">GitBotAI - Your Coding Assistant</h1>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h2 class="text-center mb-0">Free Plan</h2>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Our free plan provides basic code automation to help you get started. Generate simple files and scripts, manage public repos, and leverage core natural language capabilities - all at no cost. If you're new to automated coding, this is the perfect plan to start boosting your productivity right away.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h2 class="text-center mb-0">Pro Plan - $15/month</h2>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Ready to take your coding automation to the next level? With unlimited code generation, private repo management, automated deployments, priority email support, and repository analytics, our Pro plan has the premium features you need to code faster and smarter. The Pro plan is perfect for freelancers, agencies, and developers who need robust automation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h2 class="text-center mb-0">Enterprise Plan - $30/month</h2>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Maximize developer productivity with our most advanced coding automation. The Enterprise plan unlocks powerful capabilities like granular permissions, real-time repository monitoring, live chat support, and custom integrations. Whether you're a large team or enterprise, this plan provides the ultimate automated coding experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <p class="lead">Our team is available to answer any questions and help you pick the perfect plan for your needs. Get started with enhanced coding automation today!</p>
+      </div>
+    </div>
+  </div>
 
-  <!-- Pricing sections -->
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <label>Name:</label>
-      <input type="text" name="name">
-      
-      <label>Email:</label>
-      <input type="email" name="email">
-      
-      <label>Message:</label>
-      <textarea name="message"></textarea>
-      
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <!-- Script to send form data to or4cl3ai@gmail.com -->
-
-  <script>
-    const form = document.querySelector('form');
-
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const name = form.elements['name'].value;
-      const email = form.elements['email'].value;
-      const message = form.elements['message'].value;
-
-      const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-
-      window.location.href = `mailto:or4cl3ai@gmail.com?subject=Contact from Website&body=${encodeURIComponent(body)}`;
-    });
-  </script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
