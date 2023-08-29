@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitBotAI Pricing</title>
+</head>
+<body>
+  <h1>GitBotAI Pricing</h1>
+  
+  <h2>Free Plan</h2>
+  <ul>
+    <li>Cost: None</li>
+    <li>Limitations: Generating a certain amount of code, managing code in public repositories</li>
+  </ul>
+  <button onclick="sendEmail('or4cl3ai@gmail.com', 'Sign up for Free Plan')">Sign Up</button>
+
+  <h2>Pro Plan</h2>
+  <ul>
+    <li>Cost: $15 per month</li>
+    <li>Features: Unlimited code generation, managing both public and private repositories, version control integration</li>
+  </ul>
+  <button onclick="sendEmail('or4cl3ai@gmail.com', 'Sign up for Pro Plan')">Sign Up</button>
+
+  <h2>Enterprise Plan</h2>
+  <ul>
+    <li>Cost: $30 per month</li>
+    <li>Features: All Pro Plan features, plus packaging and deployment, robust natural language understanding, user authentication and authorization</li>
+  </ul>
+  <button onclick="sendEmail('or4cl3ai@gmail.com', 'Sign up for Enterprise Plan')">Sign Up</button>
+  
+  <h2>Contact</h2>
+  <form onsubmit="sendEmail('or4cl3ai@gmail.com', 'Contact Form Submission'); return false;">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    function sendEmail(email, subject) {
+      window.location.href = "mailto:" + email + "?subject=" + encodeURIComponent(subject);
+    }
+  </script>
+</body>
+</html>
