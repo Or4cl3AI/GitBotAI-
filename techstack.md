@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 Or4cl3AI/GitBotAI- is built on the following main stack:
+
 - [Python](https://www.python.org) – Languages
 - [C++](http://www.cplusplus.com/) – Languages
 - [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
@@ -18,11 +19,13 @@ Or4cl3AI/GitBotAI- is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 Or4cl3AI/GitBotAI- is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1049/cplusplus.png' alt='C++'/> [C++](http://www.cplusplus.com/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'/> [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
@@ -39,14 +42,15 @@ Or4cl3AI/GitBotAI- is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Or4cl3AI/GitBotAI-](https://github.com/Or4cl3AI/GitBotAI-)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|31<br/>Tools used|11/24/23 <br/>Report generated|
+|31<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -216,19 +220,19 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[Flask](https://pypi.org/Flask)|v2.3.2|08/07/23|Or4cl3AI |BSD-3-Clause|N/A|
-|[PyGithub](https://pypi.org/PyGithub)|v1.55|07/27/23|e2b-for-github[bot] |LGPL-3.0|N/A|
-|[gunicorn](https://pypi.org/gunicorn)|v20.1.0|07/27/23|e2b-for-github[bot] |MIT|N/A|
-|[marshmallow](https://pypi.org/marshmallow)|v3.12.1|07/27/23|e2b-for-github[bot] |MIT|N/A|
-|[nltk](https://pypi.org/nltk)|v3.8.1|07/27/23|e2b-for-github[bot] |Apache-2.0|N/A|
-|[oauthlib](https://pypi.org/oauthlib)|v3.1.1|07/27/23|e2b-for-github[bot] |BSD-3-Clause|[CVE-2022-36087](https://github.com/advisories/GHSA-3pgj-pg6c-r5p7) (Moderate)|
-|[pandas](https://pypi.org/pandas)|v1.2.5|07/27/23|e2b-for-github[bot] |BSD-3-Clause|N/A|
-|[python-decouple](https://pypi.org/python-decouple)|v3.4|07/27/23|e2b-for-github[bot] |MIT|N/A|
-|[python-dotenv](https://pypi.org/python-dotenv)|v0.17.1|07/27/23|e2b-for-github[bot] |BSD-3-Clause|N/A|
-|[python-jose](https://pypi.org/python-jose)|v3.3.0|07/27/23|e2b-for-github[bot] |MIT|N/A|
-|[requests](https://pypi.org/requests)|v2.31.0|07/27/23|e2b-for-github[bot] |Apache-2.0|N/A|
-|[scikit-learn](https://pypi.org/scikit-learn)|v1.3.0|08/07/23|Or4cl3AI |BSD-3-Clause|N/A|
-|[spacy](https://pypi.org/spacy)|v3.0.6|07/27/23|e2b-for-github[bot] |MIT|N/A|
+|[Flask](https://pypi.org/project/Flask)|v2.3.2|08/07/23|Or4cl3AI |BSD-3-Clause|N/A|
+|[PyGithub](https://pypi.org/project/PyGithub)|v1.55|07/27/23|e2b-for-github[bot] |LGPL-3.0|N/A|
+|[gunicorn](https://pypi.org/project/gunicorn)|v20.1.0|07/27/23|e2b-for-github[bot] |MIT|N/A|
+|[marshmallow](https://pypi.org/project/marshmallow)|v3.12.1|07/27/23|e2b-for-github[bot] |MIT|N/A|
+|[nltk](https://pypi.org/project/nltk)|v3.8.1|07/27/23|e2b-for-github[bot] |Apache-2.0|N/A|
+|[oauthlib](https://pypi.org/project/oauthlib)|v3.1.1|07/27/23|e2b-for-github[bot] |BSD-3-Clause|[CVE-2022-36087](https://github.com/advisories/GHSA-3pgj-pg6c-r5p7) (Moderate)|
+|[pandas](https://pypi.org/project/pandas)|v1.2.5|07/27/23|e2b-for-github[bot] |BSD-3-Clause|N/A|
+|[python-decouple](https://pypi.org/project/python-decouple)|v3.4|07/27/23|e2b-for-github[bot] |MIT|N/A|
+|[python-dotenv](https://pypi.org/project/python-dotenv)|v0.17.1|07/27/23|e2b-for-github[bot] |BSD-3-Clause|N/A|
+|[python-jose](https://pypi.org/project/python-jose)|v3.3.0|07/27/23|e2b-for-github[bot] |MIT|N/A|
+|[requests](https://pypi.org/project/requests)|v2.31.0|07/27/23|e2b-for-github[bot] |Apache-2.0|N/A|
+|[scikit-learn](https://pypi.org/project/scikit-learn)|v1.3.0|08/07/23|Or4cl3AI |BSD-3-Clause|N/A|
+|[spacy](https://pypi.org/project/spacy)|v3.0.6|07/27/23|e2b-for-github[bot] |MIT|N/A|
 
 <br/>
 <div align='center'>
