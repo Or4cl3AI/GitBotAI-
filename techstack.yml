@@ -1,7 +1,8 @@
 repo_name: Or4cl3AI/GitBotAI-
 report_id: 0d7749eebcadd61f27ed2848c3c5fa39
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-24T02:01:01+00:00'
+timestamp: '2024-01-05T08:34:36+00:00'
 requested_by: Or4cl3AI
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: Fortran
   description: High-performance parallel programming language
@@ -43,6 +47,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -53,6 +58,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -63,6 +69,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
@@ -73,6 +80,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -82,6 +90,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -91,7 +100,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/static.yml"
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/.github/workflows/docker-image.yml
+  detection_source: ".github/workflows/docker-image.yml"
   last_updated_by: Dustin Groves
   last_updated_on: 2023-07-27 08:37:32.000000000 Z
 - name: Nix
@@ -103,6 +113,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -112,6 +123,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Or4cl3AI
   last_updated_on: 2023-08-07 02:40:14.000000000 Z
@@ -123,6 +135,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
@@ -136,7 +149,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: sweep-ai[bot]
   last_updated_on: 2023-08-02 19:18:22.000000000 Z
@@ -146,6 +159,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/index.html
   detection_source: index.html
   last_updated_by: Dustin Groves
   last_updated_on: 2023-07-27 05:03:28.000000000 Z
@@ -159,7 +173,7 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/poetry.lock
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
@@ -171,6 +185,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -181,6 +196,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-
   detection_source: Repo Metadata
 - name: TensorFlow
   description: Open Source Software Library for Machine Intelligence
@@ -192,13 +208,13 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: Flask
   description: A simple framework for building complex web applications
-  package_url: https://pypi.org/Flask
+  package_url: https://pypi.org/project/Flask
   version: 2.3.2
   license: BSD-3-Clause
   open_source: true
@@ -206,13 +222,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
-  detection_source_url: pyproject.toml
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Or4cl3AI
   last_updated_on: 2023-08-07 02:40:14.000000000 Z
 - name: PyGithub
   description: Use the full Github API v3
-  package_url: https://pypi.org/PyGithub
+  package_url: https://pypi.org/project/PyGithub
   version: '1.55'
   license: LGPL-3.0
   open_source: true
@@ -220,13 +236,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19957/default_f0290ff2792e2af7d13f5c82ed82206842ec288d.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: gunicorn
   description: WSGI HTTP Server for UNIX
-  package_url: https://pypi.org/gunicorn
+  package_url: https://pypi.org/project/gunicorn
   version: 20.1.0
   license: MIT
   open_source: true
@@ -234,14 +250,14 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: marshmallow
   description: A lightweight library for converting complex datatypes to and from
     native Python datatypes
-  package_url: https://pypi.org/marshmallow
+  package_url: https://pypi.org/project/marshmallow
   version: 3.12.1
   license: MIT
   open_source: true
@@ -249,13 +265,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19893/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: nltk
   description: Natural Language Toolkit
-  package_url: https://pypi.org/nltk
+  package_url: https://pypi.org/project/nltk
   version: 3.8.1
   license: Apache-2.0
   open_source: true
@@ -263,13 +279,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
-  detection_source_url: poetry.lock
-  detection_source: pyproject.toml
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/poetry.lock
+  detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: oauthlib
   description: A generic
-  package_url: https://pypi.org/oauthlib
+  package_url: https://pypi.org/project/oauthlib
   version: 3.1.1
   license: BSD-3-Clause
   open_source: true
@@ -277,7 +293,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20048/default_d9e0956c82c17d568b62f3b0d5e2080c1e501e59.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
@@ -290,7 +306,7 @@ tools:
     first_patched: 3.2.2
 - name: pandas
   description: Powerful data structures for data analysis
-  package_url: https://pypi.org/pandas
+  package_url: https://pypi.org/project/pandas
   version: 1.2.5
   license: BSD-3-Clause
   open_source: true
@@ -298,13 +314,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: python-decouple
   description: Strict separation of settings from code
-  package_url: https://pypi.org/python-decouple
+  package_url: https://pypi.org/project/python-decouple
   version: '3.4'
   license: MIT
   open_source: true
@@ -312,13 +328,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20545/default_7b61da87043cab6a451d00283941da078ee5c9d9.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: python-dotenv
   description: Add .env support to your django/flask apps in development and deployments
-  package_url: https://pypi.org/python-dotenv
+  package_url: https://pypi.org/project/python-dotenv
   version: 0.17.1
   license: BSD-3-Clause
   open_source: true
@@ -326,13 +342,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: python-jose
   description: JOSE implementation in Python
-  package_url: https://pypi.org/python-jose
+  package_url: https://pypi.org/project/python-jose
   version: 3.3.0
   license: MIT
   open_source: true
@@ -340,13 +356,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20096/default_5297f13e5d732665caff8f16d9bfcd71481f98b6.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: requests
   description: Python HTTP for Humans
-  package_url: https://pypi.org/requests
+  package_url: https://pypi.org/project/requests
   version: 2.31.0
   license: Apache-2.0
   open_source: true
@@ -354,13 +370,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: poetry.lock
-  detection_source: pyproject.toml
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/poetry.lock
+  detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
 - name: scikit-learn
   description: A set of python modules for machine learning and data mining
-  package_url: https://pypi.org/scikit-learn
+  package_url: https://pypi.org/project/scikit-learn
   version: 1.3.0
   license: BSD-3-Clause
   open_source: true
@@ -368,13 +384,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Or4cl3AI
   last_updated_on: 2023-08-07 02:40:14.000000000 Z
 - name: spacy
   description: Industrial-strength Natural Language Processing
-  package_url: https://pypi.org/spacy
+  package_url: https://pypi.org/project/spacy
   version: 3.0.6
   license: MIT
   open_source: true
@@ -382,7 +398,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
-  detection_source_url: GitBotAI/requirements.txt
+  detection_source_url: https://github.com/Or4cl3AI/GitBotAI-/blob/main/GitBotAI/requirements.txt
   detection_source: GitBotAI/requirements.txt
   last_updated_by: e2b-for-github[bot]
   last_updated_on: 2023-07-27 00:47:42.000000000 Z
